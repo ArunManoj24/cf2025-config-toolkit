@@ -1,0 +1,152 @@
+.card-header {
+    background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+    color: white;
+}
+.btn-primary {
+    background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+    border: none;
+}
+.btn-primary:hover {
+    background: linear-gradient(135deg, #0056b3 0%, #004085 100%);
+}
+.status-valid {
+    background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+    color: white;
+}
+.status-invalid {
+    background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
+    color: white;
+}
+.status-checking {
+    background: linear-gradient(135deg, #ffc107 0%, #e0a800 100%);
+    color: #212529;
+}
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 123, 255, 0.05);
+}
+.spinner-border-sm {
+    width: 1rem;
+    height: 1rem;
+}
+.tooltip-inner {
+    max-width: 300px;
+    text-align: left;
+}
+.refresh-icon {
+    transition: transform 0.5s ease;
+}
+.refresh-icon.spinning {
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+.datasource-row {
+    transition: all 0.3s ease;
+}
+.error-details {
+    font-family: 'Courier New', monospace;
+    font-size: 0.85em;
+    background: #f8f9fa;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border-left: 3px solid #dc3545;
+    margin-top: 0.5rem;
+}
+
+/* docker file generator */
+
+.card-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+.btn-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+}
+.btn-primary:hover {
+    background: linear-gradient(135deg, #5a6fd8 0%, #6a4190 100%);
+}
+.form-control:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+}
+.code-block {
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 0.375rem;
+    padding: 1rem;
+    font-family: 'Courier New', monospace;
+    white-space: pre-wrap;
+    max-height: 400px;
+    overflow-y: auto;
+}
+.alert-success {
+    border-left: 4px solid #28a745;
+}
+.alert-danger {
+    border-left: 4px solid #dc3545;
+}
+
+/* Import page styles */
+
+.header-gradient {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+.card-shadow {
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+.file-upload-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+}
+.file-upload-input {
+    position: absolute;
+    left: -9999px;
+}
+.file-upload-label {
+    cursor: pointer;
+    display: block;
+    padding: 0.75rem 1rem;
+    border: 2px dashed #dee2e6;
+    border-radius: 0.375rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.file-upload-label:hover {
+    border-color: #6c757d;
+    background-color: #f8f9fa;
+}
+.file-selected {
+    border-color: #198754;
+    background-color: #d1e7dd;
+}
+
+/* Viewer styles */
+
+.log-entry-error { background-color: #f8d7da; }
+.log-entry-warn { background-color: #fff3cd; }
+.log-entry-info { background-color: #d1ecf1; }
+.log-message { 
+    max-width: 400px; 
+    word-wrap: break-word; 
+    white-space: pre-wrap;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9em;
+}
+.log-level-badge {
+    min-width: 60px;
+    text-align: center;
+}
+.refresh-spinner {
+    display: none;
+}
+.table-container {
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+
